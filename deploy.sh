@@ -2,6 +2,6 @@
 
 kill -9 $(pgrep webserver)
 cd /opt/go/src/devops/
-git pull 
+#git pull 
 cd webserver/
 ./webserver &
