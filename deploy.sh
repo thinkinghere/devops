@@ -3,7 +3,7 @@
 sudo -i
 kill -9 $(pgrep webserver)
 cd ~/devops/
-git pull https://github.com/thinkinghere/devops.git
+git pull 
 cd webserver/
 chmod +x webserver
-./webserver $
+./webserver &
