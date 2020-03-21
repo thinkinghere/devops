@@ -10,3 +10,5 @@ SET GOOS=linux
 SET GOARCH=amd64
 go build
 ```
+
+在win上交叉编译出的二进制文件没有可执行权限,还是直接在Mac/Linux平台上编译代码后推送
