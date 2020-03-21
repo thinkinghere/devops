@@ -1,9 +1,7 @@
 #! /bin/sh
 
-sudo -i
 kill -9 $(pgrep webserver)
-cd ~/devops/
+cd /opt/go/src/devops/
 git pull 
 cd webserver/
-chmod +x webserver
 ./webserver &
