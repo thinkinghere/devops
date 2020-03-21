@@ -1,5 +1,6 @@
 #! /bin/sh
 
+sudo -i
 kill -9 $(pgrep webserver)
 cd ~/devops/
 git pull https://github.com/thinkinghere/devops.git
